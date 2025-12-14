@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+	<meta name="description" content="This is an example of a meta description. This will often show up in search results so it is important to write a high quality description for each page of a website">
+	<title>ANIMAL PHOTOGRAPHY::HOME</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Bootstrap Stylesheet-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="style.css">
+</head>
+<!-- Body  --> 
+<body>
+	<header>
+		<h1>Animal Photography</h1>
+	</header>
+	<!-- Navigation -->
+	<nav>
+		<ul>
+			<li><a href="index.html"><i class="fa fa-home fa-nav" aria-hidden="true"></i>Home</a></li>
+			<li><a href="about.html"><i class="fa fa-question fa-nav" aria-hidden="true"></i>About</a></li>
+  			<li><a href="contact.html"><i class="fa fa-address-book-o fa-nav" aria-hidden="true"></i>Contact</a></li>
+  		</ul>
+	</nav>
+	<!-- Main Section -->
+	<main>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12">
+					<img class="hero-image img-fluid" src="images/rabbit.jpg" alt="a rabbit eating a flower" height="400" width="1200">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-2">
+					<i class="fa fa-camera-retro" aria-hidden="true"></i>
+				</div>
+				<div class="col-sm-8">
+					<blockquote>The website features photographs of animals from Pixabay.com. The key to animal photography is patience. It can take a long time to get the right lighting and the best view of the animal. When photographing animals, you do not have a lot of control...you need to wait for them.</blockquote>
+				</div>
+				<div class="col-sm-2">
+					<i class="fa fa-camera-retro" aria-hidden="true"></i>
+				</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="gallery">
+						<div class="preview">
+					        <img id="preview" src="images/bison.jpg" style="display:block;margin:0 auto;" alt="photo of a bison"  height="600" width="800"/>
+					    </div>
+					    <div class="gallery-thumbnails" style="margin:0 auto;text-align:center">
+					        <img onclick="document.getElementById('preview').src=document.getElementById('img1').src" id="img1" src="images/bison.jpg" alt="" />
+					        <img onclick="document.getElementById('preview').src= document.getElementById('img2').src;" id="img2" src="images/deer.jpg" alt=""  />
+					        <img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src="images/eagle.jpg" alt="" />
+					        <img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="images/fox.jpg" alt="" />
+					        <img onclick="document.getElementById('preview').src = document.getElementById('img5').src;" id="img5" src="images/frog.jpg" alt=""  />
+					        <img onclick="document.getElementById('preview').src = document.getElementById('img6').src;" id="img6" src="images/hedgehog.jpg" alt="" />
+					        <img onclick="document.getElementById('preview').src = document.getElementById('img7').src;" id="img7" src="images/lizard.jpg" alt="" />
+					        <img onclick="document.getElementById('preview').src = document.getElementById('img8').src;" id="img8" src="images/otter.jpg" alt="" />
+					        <img onclick="document.getElementById('preview').src = document.getElementById('img9').src;" id="img9" src="images/sheep.jpg" alt="" />
+					        <img onclick="document.getElementById('preview').src = document.getElementById('img10').src;" id="img10" src="images/spider.jpg" alt="" />
+					        <img onclick="document.getElementById('preview').src = document.getElementById('img11').src;" id="img11" src="images/turtle.jpg" alt="" />
+					    </div>   
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!-- Footer -->
+	<footer>
+		<div class="container-fluid">
+			<div class="row footer1">
+				<div class="col-sm-6">
+					<h4>Web Design Exercise</h4>
+					<p>Animal Photography is a website exercise on image galleries available on <a href="https://webdevstudents.com/" target="_blank">WebDevStudents.com</a>. The images are royalty-free photos from <a href="https://pixabay.com/" target="_blank">pixabay.com</a>. JavaScript was used to make the photo gallery, and Bootstrap columns for responsive layout</p>
+				</div>
+				<div class="col-sm-6">
+					<h4>Connect with Animal Photography</h4>
+					<p><a href="https://facebook.com/" target="_blank">
+					<i class="fa fa-facebook-square" aria-hidden="true"></i>
+					Facebook</p></a>
+					<p><a href="https://instagram.com/" target="_blank">
+					<i class="fa fa-instagram" aria-hidden="true"></i>
+					Instagram</p></a>
+					<p><a href="mailto:me@mycoolwebsite.com" target="_blank">
+					<i class="fa fa-envelope-o" aria-hidden="true"></i>
+					Email Us</p></a>
+				</div>
+			</div>
+			<div class="row footer2">
+				<div class="col-sm-12">
+					<small>&copy; Ryan Kue. All rights reserved.</small>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--jQuery, Popper, and Bootstrap Javascript files-->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

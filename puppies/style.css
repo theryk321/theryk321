@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Mountains+of+Christmas:wght@400;700&display=swap');
+/* Fonts for headings and body */
+h1, h2, h3, h4{
+    font-family: "Mountains of Christmas", cursive;
+    font-weight: 700;
+}
+h1{
+    color: #FFCF40;
+}
+body{
+  	font-family: "Gochi Hand", cursive;
+    margin: 0;
+    background-image: url(images/winter.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #FFCF40;
+}
+/* Website Links except the nav */
+a:link{
+    color: #FFFFFF;
+}
+a:visited{
+    color: #FFFFFF;
+}
+a:hover{
+    color: #bfbfbf;
+}
+a:active{
+    color: #bfbfbf;
+}
+/* Header */
+header{
+    text-align: center;
+}
+/* Navigation */
+nav{
+    background-color: #E40A2D;
+    border-top: 4px solid #1E5636;
+    border-bottom: 4px solid #1E5636;
+    padding: 5px;
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    margin: 8px 0;
+    padding: 0;
+}
+nav li{
+    display: inline;
+    padding: 5px;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:link{
+    color: #FFCF40;
+}
+nav a:visited{
+    color: #FFCF40;
+}
+nav a:hover{
+    color: #e6ac00;
+}
+nav a:active{
+    color: #e6ac00;
+}
+/* Main */
+main{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+}
+/* Footer */
+footer{
+    border-top: #1E5636 4px solid;
+    text-align: center;
+    background-color: #E40A2D;
+}
+/* CSS withouth a media query--applies to all sizes unless overidden */
+h1{
+    font-size: 4em;
+}
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px){
+    h1{
+        font-size: 2em;
+    }
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px){
+    h1{
+        font-size: 1.5em;
+    }
+}
+/* CSS for Font Awesome 4 Icons */
+nav .fa{
+    color: #ffcc00;
+    font-size: 1em;
+}
+footer .fa{
+    font-size: 3em;
+    color: #1E5636;
+}
+/* CSS for Bacground image */
+.home-hero{
+    background-image: url(images/header.jpg);
+    height: 475px;
+    background-size: cover;
+    background-position: center;
+    color: #042837;
+    padding: 10px 10px 10px 30px;
+    border: 5px solid #1E5636;
+}
+/* CSS for blockquote */
+blockquote{
+    background-color: #1E5636;
+    border-left: 10px solid #FFCF40;
+    padding: 30px;
+    opacity: 0.70;
+}
+/* CSS for centering images */
+img{
+    display: block;
+    margin: 0 auto;
+}
+.img-fluid{
+    border-radius: 50%;
+}
+.ornament-1{
+    border: 5px solid #E40A2D;
+}
+.ornament-2{
+    border: 5px solid #FFCF40;
+}
+.ornament-3{
+    border: 5px solid #FFFFFF;
+}
+.puppy-1 h3{
+    color: #E40A2D;
+}
+.puppy-2 h3{
+    color: #FFCF40;
+}
+.puppy-3 h3{
+    color: #FFFFFF;
+}
+
+

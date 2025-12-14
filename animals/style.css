@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Grenze+Gotisch:wght@100..900&display=swap');
+
+/* Fonts for headings and body */
+h1, h2, h3{
+    font-family: "Grenze Gotisch", sans-serif;
+}
+
+body{
+    color: #FFFDD0;
+  	font-family: "Caveat", cursive;
+    margin: 0;
+    font-size: 1em;
+    background-color: #EDE8D0;
+}
+/* Website Links except the nav */
+a:link{
+    color: #6D3B07;
+}
+a:visited{
+    color: #6D3B07;
+}
+a:hover{
+    color: #482705;
+}
+a:active{
+    color: #482705;
+}
+/* Header */
+header{
+    text-align: center;
+    color: #6D3B07;
+}
+
+/* Navigation */
+nav{
+    background-color: #6D3B07;
+    border-top: 3px solid #44624a;
+    border-bottom: 3px solid #44624a;
+    padding: 5px;
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    margin: 8px 0;
+    padding: 0;
+}
+nav li{
+    display: inline;
+    padding: 5px;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:link{
+    color: #FFFDD0;
+}
+nav a:visited{
+    color: #FFFDD0;
+}
+nav a:hover{
+    color: #e6da00;
+}
+nav a:active{
+    color: #e6da00;
+}
+/* Main */
+main{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+}
+/* Footer */
+footer{
+    font-weight: 700;
+    border-top: #6D3B07 3px solid;
+    text-align: center;
+}
+/* CSS withouth a media query--applies to all sizes unless overidden */
+h1{
+    font-size: 4em;
+}
+.gallery .preview{
+    width: 100%;
+    height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+    border: 6px inset white;
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    border: 4px inset white;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    border: 8px inset white;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px){
+    h1{
+        font-size: 2em;
+    }
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px){
+    h1{
+        font-size: 1.5em;
+    }
+}
+
+.fa{
+    font-size: 1em;
+    color: #6D3B07;
+}
+
+.fa-camera-retro{
+    color: #6D3B07;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+}
+
+.fa-nav{
+    color: #FFFDD0;
+}
+
+.hero-image{
+    border: 5px solid white; 
+    box-shadow: 0px 0px 20px 10px black;
+}
+
+blockquote{
+    background-color: #44624a;
+    padding: 10px;
+    margin: 10px;
+    opacity: 0.70;
+}
+
+.footer1{
+    background-color: #44624a;
+}
+
+.footer2{
+    color: #FFFDD0;
+    background-color: #6D3B07;
+}
+
